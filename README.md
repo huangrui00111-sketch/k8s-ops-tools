@@ -11,7 +11,9 @@
 - 学习 Kubernetes
 - 日常运维
 - 故障排查
-
+- 支持集群一键巡检
+- 支持 Ingress / Service 访问问题排查
+- 支持 PVC / PV 存储问题定位
 ---
 
 ## 📂 目录说明
@@ -21,5 +23,5 @@ scripts/
 ├── cluster/    # 集群 & Node 相关
 ├── pod/        # Pod 排错
 ├── workload/   # Deployment / StatefulSet
-├── config/     # kubeconfig / context
-helm/           # Helm 相关工具
+├── network/    # Ingress / Service 访问问题排查
+├── storage/    # PVC / PV 存储问题定位
